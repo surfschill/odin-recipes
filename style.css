@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(224, 161, 161);
+}
+.center{
+    color: rgb(0, 0, 0);
+    text-align: center  ;
+}
+.pictureframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ol,ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
