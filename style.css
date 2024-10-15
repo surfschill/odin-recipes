@@ -11,11 +11,18 @@ body{
     margin-right: auto;
     width: 50%;
 }
-ol,ul{
+ol,ul {
     list-style-position: inside;
     padding: 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+ol li, ul li{
+    width: 100%;
+    max-width: 600px;
+    margin: 5px 0;
+}
+    
